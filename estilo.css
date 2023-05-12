@@ -1,8 +1,33 @@
 body {
   background-image: url(jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .botones {
   color: white;
   background-color: #d63384;
+}
+
+.rosa {
+  color: #d63384;
+}
+
+.fondo-rosa {
+  background-color: #d63384;
+}
+
+.margenes {
+  margin: 80px 0px 0px 0px;
+}
+
+.margenes-top-bottom {
+  margin: 180px 0px;
+}
+
+.letra-grande {
+  font-size: 64px;
+}
+
+.blanco {
+  background-color: white;
 }
