@@ -8,15 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo.css">
-  <script src="javascript.js"></script>
 </head>
 
 <body class="container-fluid text-center text-white">
   
-  <header class="sticky-top bg-dark">
+  <header class="sticky-top negro">
     <section class="row align-items-center">
       <!--Cambio de modo-->
-      <article class="col"><button class="btn btn-light cambio-modo">Modo Oscuro</button></article>
+      <article class="col">
+        <button class="btn btn-light boton-borde">Cambiar modo</button>
+      </article>
 
       <!--Redes sociales-->
       <article class="col">
@@ -46,7 +47,7 @@
   <main class="row margenes-top-bottom mb-5 justify-content-around">
     <div class="col-2">
       
-      <form class="bg-dark rounded" action="mailto:jesusnicolas.rios@unahur.edu.ar;gabriel.molina@unahur.edu.ar?subject=Primer Parcial" method="post">
+      <form class="negro rounded" action="mailto:jesusnicolas.rios@unahur.edu.ar;gabriel.molina@unahur.edu.ar?subject=Primer Parcial" method="post">
         <div class="mb-3">
           <label for="nombre_usuario" class="form-label">Nombre y apellido</label>
           <input type="text" class="form-control" id="nombre_usuario" name="usarname" required><br>
@@ -64,7 +65,7 @@
     
   </main>
 
-  <footer class="bg-dark align-self-end fixed-bottom">
+  <footer class="negro align-self-end fixed-bottom">
     <section class="row align-items-center">
       <!--Mapa al local-->
       <article class="col-md-auto ms-5">
@@ -109,4 +110,5 @@
     </section>
   </footer>
 
+  <script src="javascript.js"></script>
 </body>

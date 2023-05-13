@@ -28,6 +28,23 @@ body {
   font-size: 64px;
 }
 
+.negro {
+  background-color: black;
+}
+
 .blanco {
   background-color: white;
+}
+
+.boton-borde {
+  border: 2px solid black;
+}
+
+.formulario-blanco {
+  color: black;
+  background-color: white;
+}
+
+li {
+  color: #d63384;
 }

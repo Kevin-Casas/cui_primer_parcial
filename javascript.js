@@ -1,9 +1,11 @@
-var cambio = document.querySelector("cambio-modo").addEventListener("click", function cambiarModo(){})
+var header = document.querySelector("header");
+var footer = document.querySelector("footer");
+var form = document.querySelector("form");
+var botonModo = document.querySelector("button");
 
-
-function cambiarModo() {
-  var header = document.querySelector("header")
-  var footer = document.querySelector("footer")
+var cambiarColor = function() {
   header.classList.toggle("blanco")
   footer.classList.toggle("blanco")
-}
+  form.classList.toggle("formulario-blanco")
+};
+botonModo.addEventListener("click", cambiarColor);
